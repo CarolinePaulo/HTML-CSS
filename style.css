@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link-header {
+    display: none;
+}
+
+.button-header {
+    width: 91px;
+    height: 31px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    margin-top: 17px;
+    margin-right: 15px;
+    margin-left: 284px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: normal;
+}
+
+img {
+    width: 312px;
+    height: 288px;
+}
+
+h1 {
+    width: 278px;
+    color: #161A49;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 43px;
+}
+
+p {
+    width: 304px;
+    color: #4B505A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 43px;
+}
+
+.link-main {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 139px;
+}
+
+@media screen and (min-width:900px) {
+    .left {
+        display: inline-block;
+    }
+
+    .right {
+        display: inline-block;
+
+    }
+
+    .link-header {
+        display: inline;
+        color: #17233D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        margin-right: 32px;
+    }
+
+    .products {
+        padding-left: 42px;
+    }
+
+    .button-header {
+        width: 124px;
+height: 51px;
+margin-left: 25px;
+cursor: pointer;
+    }
+    h1{
+        width: 582px;
+        color: #161A49;
+font-size: 62px;
+font-weight: 700;
+line-height: 82px;
+    }
+    p{
+        width: 493px;
+        color: #4B505A;
+font-size: 18px;
+font-weight: 400;
+line-height: 33px;
+    }
+    img{width: 595.178px;
+        height: 500.005px;}
+        .link-main{
+cursor:pointer;
+padding-left: 13%;
+        }
+}
